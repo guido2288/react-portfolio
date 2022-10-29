@@ -3,6 +3,7 @@ import moonIcon from './images/luna.png';
 import sunIcon from './images/sun.png';
 import linkedinIcon from './images/linkedin.png';
 import githubIcon from './images/github.png';
+import emailIcon from './images/email.png';
 import imageP from './images/guido.jpeg';
 import hmlIcon from './images/html5.png';
 import cssIcon from './images/css-3.png';
@@ -54,10 +55,7 @@ function App() {
             </p>
           </div>
 
-          <div className='flex justify-center gap-16 py-3'>
-            <a href="https://www.linkedin.com/in/guido-nicolas-garcia/"><img src={linkedinIcon} className="w-8 hover:scale-125 md:w-12" alt="linkedin.png" /></a>
-            <a href="https://github.com/guido2288/guido2288"><img src={githubIcon} className="w-8 hover:scale-125 md:w-12" alt="github.png" /></a>
-          </div>
+
 
           <div className='flex justify-center '>
             <img src={imageP} alt="guido.jpng" className='rounded-full md:h-80 md:w-80 drop-shadow-2xl' />
@@ -148,10 +146,8 @@ function App() {
 
             <div >
               <h4 className='text-lg font-medium py-4 md:text-xl dark:text-white'>PokeApp</h4>
-              <div className='relative'>
-                <img src={pokeApp} alt="pokeApp.png" className='drop-shadow-2xl h-60' />
-                <p className='absolute top-0 left-0 flex flex-col align-middle justify-center opacity-0 text-white w-full h-full bg-trans cursor-pointer hover:opacity-100'>An application that uses the pokeApi. This app was built with React + tailwind, i build this app to practice React Router.</p>
-
+              <div className='h-60'>
+                <img src={pokeApp} alt="pokeApp.png" className='drop-shadow-2xl h-full w-full' />
               </div>
               <div className='flex gap-6 mt-2'>
                 <a href="https://github.com/guido2288/pokeApp"><button className='p-2 border rounded-md border-gray-200 text-gray-600 hover:border-black hover:text-black dark:hover:text-white dark:border-gray-600'>View Git Repository</button></a>
@@ -164,9 +160,8 @@ function App() {
 
             <div >
               <h4 className='text-lg font-medium py-4 md:text-xl dark:text-white'>CalculatorApp</h4>
-              <div className='relative'>
-                <img src={calculatorApp} alt="calculatorApp.png" className='drop-shadow-2xl  h-60' />
-                <p className='absolute top-0 left-0 flex flex-col align-middle justify-center opacity-0 text-white w-full h-full bg-trans cursor-pointer hover:opacity-100'>The classic calculator app, using React and with change of themes</p>
+              <div className='h-60'>
+                <img src={calculatorApp} alt="calculatorApp.png" className='drop-shadow-2xl h-full  w-full' />
               </div>
               <div className='flex gap-6 mt-2'>
                 <a href="https://github.com/guido2288/CalculatorApp"><button className='p-2 border rounded-md border-gray-200 text-gray-600 hover:border-black hover:text-black dark:hover:text-white dark:border-gray-600'>View Git Repository</button></a>
@@ -179,9 +174,8 @@ function App() {
 
             <div>
               <h4 className='text-lg font-medium py-4 md:text-xl dark:text-white'>ShorterApp</h4>
-              <div className='relative'>
-                <img src={shorterApp} alt="calculatorApp.png" className='drop-shadow-2xl h-60' />
-                <p className='absolute top-0 left-0 flex flex-col align-middle justify-center opacity-0 text-white w-full h-full bg-trans cursor-pointer hover:opacity-100'>Shorten your URLs with this app, integrated with the shrtcode API.</p>
+              <div className='h-60'>
+                <img src={shorterApp} alt="calculatorApp.png" className='drop-shadow-2xl h-full w-full' />
               </div>
               <div className='flex gap-6 mt-2'>
                 <a href="https://github.com/guido2288/url-shortering-api"><button className='p-2 border rounded-md border-gray-200 text-gray-600 hover:border-black hover:text-black dark:hover:text-white dark:border-gray-600'>View Git Repository</button></a>
@@ -194,9 +188,8 @@ function App() {
 
             <div>
               <h4 className='text-lg font-medium py-4 md:text-xl dark:text-white'>RickAndMortyApp</h4>
-              <div className='relative'>
-                <img src={rickAndMortyApp} alt="calculatorApp.png" className='drop-shadow-2xl h-60' />
-                <p className='absolute top-0 left-0 flex flex-col align-middle justify-center opacity-0 text-white w-full h-full bg-trans cursor-pointer hover:opacity-100'>This was my first project that integrates an API with React. You can search or filter any character in the series.</p>
+              <div className='h-60'>
+                <img src={rickAndMortyApp} alt="calculatorApp.png" className='drop-shadow-2xl h-full w-full' />
               </div>
               <div className='flex gap-6 mt-2'>
                 <a href="https://github.com/guido2288/rickAndMortyApp"><button className='p-2 border rounded-md border-gray-200 text-gray-600 hover:border-black hover:text-black dark:hover:text-white dark:border-gray-600'>View Git Repository</button></a>
@@ -209,9 +202,8 @@ function App() {
 
             <div>
               <h4 className='text-lg font-medium py-4 md:text-xl dark:text-white'>TipCalculatorApp</h4>
-              <div className='relative'>
-                <img src={tipCalculatorApp} alt="calculatorApp.png" className='drop-shadow-2xl h-60' />
-                <p className='absolute top-0 left-0 flex flex-col align-middle justify-center opacity-0 text-white w-full h-full bg-trans cursor-pointer hover:opacity-100'>This app was made with Js for the functionality.</p>
+              <div className='h-60'>
+                <img src={tipCalculatorApp} alt="calculatorApp.png" className='drop-shadow-2xl h-full w-full' />
               </div>
               <div className='flex gap-6 mt-2'>
                 <a href="https://github.com/guido2288/TipCalculatorApp.github.io"><button className='p-2 border rounded-md border-gray-200 text-gray-600 hover:border-black hover:text-black dark:hover:text-white dark:border-gray-600'>View Git Repository</button></a>
@@ -224,9 +216,8 @@ function App() {
 
             <div>
               <h4 className='text-lg font-medium py-4 md:text-xl dark:text-white'>AdvicegeneratorApp</h4>
-              <div className='relative'>
-                <img src={adviceGeneratorApp} alt="calculatorApp.png" className='drop-shadow-2xl h-60' />
-                <p className='absolute top-0 left-0 flex flex-col align-middle justify-center opacity-0 text-white w-full h-full bg-trans cursor-pointer hover:opacity-100'>This app use the Advice Slip API to generate random quotes of advice</p>
+              <div className='h-60'>
+                <img src={adviceGeneratorApp} alt="calculatorApp.png" className='drop-shadow-2xl h-full w-full' />
               </div>
               <div className='flex gap-6 mt-2'>
                 <a href="https://github.com/guido2288/Advice-generator-app.github.io"><button className='p-2 border rounded-md border-gray-200 text-gray-600 hover:border-black hover:text-black dark:hover:text-white dark:border-gray-600'>View Git Repository</button></a>
@@ -239,6 +230,17 @@ function App() {
         </section>
 
       </div>
+      <footer className='bg-gray-900 text-white px-10 md:px-20 lg:px-40 text-center py-10 '>
+        <h3 className='text-2xl text-cyan-500 py-3 md:text-3xl'>Contact</h3>
+        <hr />
+        <p className='py-3'>If you want to concact me, please send me a message through the following links. Thanks for visiting my portfolio, bye!</p>
+
+        <div className='flex justify-center gap-16 py-3'>
+          <a href="https://www.linkedin.com/in/guido-nicolas-garcia/"><img src={linkedinIcon} className="w-8 hover:scale-125 md:w-12" alt="linkedin.png" /></a>
+          <a href="https://github.com/guido2288/guido2288"><img src={githubIcon} className="w-8 hover:scale-125 md:w-12" alt="github.png" /></a>
+          <a href="mailto:guido2288@gmail.com"><img src={emailIcon} className="w-8 hover:scale-125 md:w-12" alt="github.png" /></a>
+        </div>
+      </footer>
     </main>
   )
 }
